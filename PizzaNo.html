@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>PizzaNo</title>
+		<link rel="shortcut icon" href="SSS\p2.png">
+		<link rel="stylesheet" href="SSS\dec.css">
+		<link href=""
+	</head>
+	
+	<body class="main">
+		<span class="header">
+			<div>
+				<img class="Pis" src="SSS\Пицца-трио.png">
+			</div>
+			<h1>PizzaNo</h1>
+			<p class="Undhead">Сытно и вкусно</p>	
+		</span>
+			
+		<div class="bottom">
+			<div class="VisitCart ">
+				<div class="Products">
+					<div class="" data-cart-order>Ваш заказ:</div>
+					<div class="basket" data-basket-empty >Корзина пуста</div>
+					<div>
+						<div class="cart-wrapper " ></div>
+					</div>
+					<div class="purchase invisible"  data-cart-delivery>
+						<div>
+							<div class="delivery">
+								<span >Доставка:</span>
+								<span class="" data-delivery-price> 200 ₽</span>
+								<div class="FreeDelivery">бесплатно при заказе от 750 ₽</div>	
+							</div>
+						</div>		
+						<div class="wd">Итого:
+							<span class="result">0 </span>
+							<span class="result">₽</span>
+						</div>
+						<div  class="order-form">
+							<div  class="Arrange">Оформить заказ:</div>
+							<input class="Number " placeholder="Напишите номер телефона" /> <br>
+							<button class="Buy "> Заказать </button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="cards" id="products-container">
+
+			<span class="titles"><h1>Пиццы</h1></span>
+
+			<div data-id="01" class="cart" >
+				<img  width="250px" height="250px" class="Pizzas" src="SSS/Гавайская.png">
+				<div  class="NamePiz">Гавайская </div>
+					<span class="dia">25см</span> <span id="slash">/</span> <span class="weight">250г</span> <br> 
+				<div class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>
+				<div class="price">210 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+			
+
+			<div data-id="02" class="cart" >
+				<img  class="Pizzas" src="SSS/ohota.png">
+				<div class="NamePiz">Охотничья </div>
+				<span class="dia">25см</span> <span id="slash">/</span> <span class="weight">270г</span> <br> 
+				<div  class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>	
+				<div class="price">250 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+			
+
+			<div data-id="03" class="cart" >
+				<img class="Pizzas" src="SSS/p2.png">
+				<div class="NamePiz">Бьянко </div>
+				<span class="dia">35см</span> <span id="slash">/</span> <span class="weight">370г</span> <br> 
+				<div class="main-counter">
+						<button id="NoumberOne" class="button" data-action="minus">-</button>
+						<div class="counter" data-counter>1</div>
+						<button id="NoumberTwo" class="button" data-action="plus">+</button>		
+				</div>
+				<div class="price">290 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+			
+
+			<div data-id="04" class="cart" >
+				<img class="Pizzas" src="SSS/p3.png">
+				<div  class="NamePiz">Мясная </div>
+				<span class="dia">45см</span> <span id="slash">/</span> <span class="weight">410г</span><br> 
+				<div  class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>
+				<div class="price">330 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+			
+			
+
+			<div data-id="05" class="cart" >
+				<img class="Pizzas" src="SSS/gribi.png">
+				<div  class="NamePiz">Грибная </div>
+				<span class="dia">35см</span> <span id="slash">/</span> <span class="weight">350г</span><br> 
+				<div  class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>
+				<div class="price">270 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+
+			<div data-id="06" class="cart" >
+				<img class="Pizzas" src="SSS/Zhezar.png">
+				<div  class="NamePiz">Цезарь </div>
+				<span class="dia">35см</span> <span id="slash">/</span> <span class="weight">320г</span><br> 
+				<div  class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>
+				<div class="price">300 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+		
+			<div data-id="07" class="cart" >
+				<img class="Pizzas" src="SSS/FourSeasons.png">
+				<div  class="NamePiz">4 Сезона</div>
+				<span class="dia">45см</span> <span id="slash">/</span> <span class="weight">380г</span><br> 
+				<div  class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>
+				<div class="price">450 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+
+			<div data-id="08" class="cart" >
+				<img class="Pizzas" src="SSS/ChickenR.png">
+				<div  class="NamePiz">Чикен Ранч</div>
+				<span class="dia">35см</span> <span id="slash">/</span> <span class="weight">300г</span><br> 
+				<div  class="main-counter">
+					<button id="NoumberOne" class="button" data-action="minus">-</button> 
+					<div class="counter" data-counter>1</div>
+					<button id="NoumberTwo" class="button" data-action="plus">+</button>
+				</div>
+				<div class="price">310 ₽</div>
+				<button class="InBasket" data-basket> + в корзину </button>
+			</div>
+
+			<div>
+				<span class="titles"><h1>Напитки</h1></span>
+
+				<div data-id="09" class="cart" >
+					<img class="Pizzas" src="SSS/CocaLoca.png">
+					<div  class="NamePiz">Кока Лока</div>
+					<span class="dia">300мл</span> <span id="slash">/</span> <span class="weight">300г</span><br> 
+					<div  class="main-counter">
+						<button id="NoumberOne" class="button" data-action="minus">-</button> 
+						<div class="counter" data-counter>1</div>
+						<button id="NoumberTwo" class="button" data-action="plus">+</button>
+					</div>
+					<div class="price">110 ₽</div>
+					<button class="InBasket" data-basket> + в корзину </button>
+				</div>
+
+				<div data-id="10" class="cart" >
+					<img class="Pizzas" src="SSS/Sprinte.png">
+					<div  class="NamePiz">Спритэ</div>
+					<span class="dia">300мл</span> <span id="slash">/</span> <span class="weight">300г</span><br> 
+					<div  class="main-counter">
+						<button id="NoumberOne" class="button" data-action="minus">-</button> 
+						<div class="counter" data-counter>1</div>
+						<button id="NoumberTwo" class="button" data-action="plus">+</button>
+					</div>
+					<div class="price">110 ₽</div>
+					<button class="InBasket" data-basket> + в корзину </button>
+				</div>
+
+				<div data-id="11" class="cart" >
+					<img class="Pizzas" src="SSS/Lipton.png">
+					<div  class="NamePiz">Лайптон</div>
+					<span class="dia">300мл</span> <span id="slash">/</span> <span class="weight">300г</span><br> 
+					<div  class="main-counter">
+						<button id="NoumberOne" class="button" data-action="minus">-</button> 
+						<div class="counter" data-counter>1</div>
+						<button id="NoumberTwo" class="button" data-action="plus">+</button>
+					</div>
+					<div class="price">110 ₽</div>
+					<button class="InBasket" data-basket> + в корзину </button>
+				</div>
+
+				<div data-id="12" class="cart" >
+					<img class="Pizzas" src="SSS/Fanta.png">
+					<div  class="NamePiz">Фантазия</div>
+					<span class="dia">150мл</span> <span id="slash">/</span> <span class="weight">150г</span><br> 
+					<div  class="main-counter">
+						<button id="NoumberOne" class="button" data-action="minus">-</button> 
+						<div class="counter" data-counter>1</div>
+						<button id="NoumberTwo" class="button" data-action="plus">+</button>
+					</div>
+					<div class="price">60 ₽</div>
+					<button class="InBasket" data-basket> + в корзину </button>
+				</div>
+
+			</div>
+
+
+		</div>
+
+		
+		
+		<div>
+			
+		</div>
+		<script src="./JS/renderProducts.js"></script>
+		<script src="./JS/cart02.js"></script>
+		<script src="./JS/basket01.js"></script>
+		<script src="./JS/toggleCartStatus.js"></script>
+		<script src="./JS/calcCartPrice.js"></script>
+	</body>
+</html>
